@@ -55,17 +55,17 @@ migrar a una rama con mantenimiento (8.2+).
 
 ```bash
 # Una URL o IP:
-python3 php_version_scan.py https://tienda.midominio.com
-python3 php_version_scan.py 192.168.1.10
+python3 php2shellscan.py https://tienda.midominio.com
+python3 php2shellscan.py 192.168.1.10
 
 # Varias de golpe (mezcla IPs y URLs):
-python3 php_version_scan.py 192.168.1.10 10.0.0.5 https://web.midominio.com
+python3 php2shellscan.py 192.168.1.10 10.0.0.5 https://web.midominio.com
 
 # Leer los objetivos desde un archivo (uno por línea; admite CSV):
-python3 php_version_scan.py --input URLs.csv
+python3 php2shellscan.py --input URLs.csv
 
 # Leer del archivo y guardar el informe de salida:
-python3 php_version_scan.py --input URLs.csv --csv informe.csv
+python3 php2shellscan.py --input URLs.csv --csv informe.csv
 ```
 
 ### Opciones
